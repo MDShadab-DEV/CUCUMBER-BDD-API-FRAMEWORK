@@ -5,8 +5,8 @@ import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/java/features",plugin ={"json:target/jsonReports/cucumber-report.json","html:target/cucumber.html","rerun:target/failed_scenarios.txt"},tags="@DeletePlace or @AddPlace",glue= "stepDefinations")
-public class TestRunner {
+@CucumberOptions(features="@target/failed_scenarios.txt",plugin ={"json:target/jsonReports/cucumber-report.json","html:target/cucumber.html"},glue= "stepDefinations")
+public class FailedTestRunner {
 //tags= {"@DeletePlace"}  compile test verify
 }
 
