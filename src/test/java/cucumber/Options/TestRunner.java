@@ -12,3 +12,4 @@ public class TestRunner {
 
 
 //mvn test -Dcucumber.filter.tags="@DeletePlace" -  Example Command to Run Tests by Tag
+//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
